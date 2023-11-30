@@ -1,6 +1,6 @@
 #include <cmath>
 
-double clamp(double min, double val, double max)
+double clamp(double min, double max, double val)
 {
 	if (val < min) {
 		return min;
