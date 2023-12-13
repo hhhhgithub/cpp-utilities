@@ -1,4 +1,5 @@
-#include <cmath>
+#include <iostream>
+#include <vector>
 
 double clamp(double min, double max, double val)
 {
@@ -10,17 +11,12 @@ double clamp(double min, double max, double val)
 	}
 	return val;
 }
+double pi = 3.1415926535897932384;
 
-std::string reverseString(std::string string)
-{
-	int length = string.length();
-	for (int i = 0; i <= length; i++) {
-		string.erase(i, 1)
-		string.send_back(string[i])
-	}
-	return string;
+double circumference(double d){
+	return d*3.1415926535897932384;
 }
 
-double range(vector<double> v) {
-	return v.max()-v.min();
+double circleArea(double r){
+	return 3.1415926535897932384 * r * r;
 }
